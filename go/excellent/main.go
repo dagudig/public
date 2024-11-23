@@ -7,3 +7,4 @@ func EvenOrOdd(number int) string {
 		return "odda"
 	}
 }
+　
