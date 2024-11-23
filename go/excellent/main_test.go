@@ -8,8 +8,8 @@ func TestEvenOrOdd(t *testing.T) {
 		t.Errorf("expected: even, actual: %s", result)
 	}
 
-	result := EvenOrOdd(11)
-	if (result != "odd"){
-		t.Errorf("expected: odd, actual: %s", result)
+	result2 := EvenOrOdd(11)
+	if (result2 != "odd"){
+		t.Errorf("expected: odd, actual: %s", result2)
 	}
 }
