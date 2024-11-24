@@ -1,7 +1,7 @@
 name: Job summaries
 on: push
 jobs:
-  log:
+  job:
     runs-on: ubuntu-latest
     steps:
       - name: job summary
